@@ -1,0 +1,9 @@
+{
+  "name": "tweetdeck-draft-extension",
+  "version": "0.0.1",
+  "description": "Draft extension for TweetDeck",
+  "main": "index.js",
+  "repository": "git@github.com:ekuinox/tweetdeck-draft-extension.git",
+  "author": "lm9 <depkey@me.com>",
+  "license": "MIT"
+}
