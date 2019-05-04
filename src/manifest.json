@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Draft for TweetDeck",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://tweetdeck.twitter.com/*",
+                "http://tweetdeck.twitter.com/*"
+            ],
+            "js": [
+                "content_script.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
