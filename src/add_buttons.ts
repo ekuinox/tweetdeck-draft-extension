@@ -1,4 +1,5 @@
 import { Draft, createNewDraft, getUserDrafts, clear, removeDraft } from './draft'
+import { draft_list } from './draft_list'
 
 export const add_buttons = () => {
     const button1 = document.createElement('button')
@@ -23,7 +24,7 @@ export const add_buttons = () => {
         const selected_account: any = document.getElementsByClassName('js-account-item js-show-tip compose-account is-actionable is-selected  link-clean')[0]
         const account_key:string = selected_account.dataset.accountKey
         const user_id = account_key.replace('twitter:', '')
-        getUserDrafts(user_id, console.log)
+        getUserDrafts(user_id, draft_list)
     }
         
     document.getElementsByClassName('cf margin-t--12 margin-b--30')[0].appendChild(button2)
